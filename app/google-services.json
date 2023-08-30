@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625855512294",
+    "project_id": "takupdf",
+    "storage_bucket": "takupdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625855512294:android:c88d1e632d1e75d3010527",
+        "android_client_info": {
+          "package_name": "com.example.takupdf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625855512294-97hihq16boapt46vmo8nplknvj2r21bn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJl2bVU63VatdZdcDJKVzT1pFkXKWKkhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625855512294-97hihq16boapt46vmo8nplknvj2r21bn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TakuPDF</string>
+    <string name="images_bottom">Images</string>
+    <string name="pdfs_pdf">PDFs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="photocard">photocard</string>
+    <string name="delete_menu_images">Delete</string>
+    <string name="pdf_menu">PDF</string>
+    <string name="text_view_pdf_name">PDF NAME</string>
+    <string name="takupdf_logo_login">TakuPDF Logo</string>
+    <string name="username_hint_login">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_hint_login">Login</string>
+    <string name="transition_login">login</string>
+    <string name="transition_signup">signup</string>
+    <string name="transition_close">close</string>
+    <string name="terms">I agree all statments in </string>
+    <string name="emailtxt">Email txt shared</string>
+    <string name="email_edittxt">Email edittxt shared</string>
+    <string name="passwordtxt">Pass txt shared</string>
+    <string name="passwoed_edittxt">Password edittxt shared</string>
+    <string name="register_text">Register</string>
+    <string name="register_registration">Register</string>
+    <string name="username_register_hint">Username</string>
+    <string name="email_registser_hint">Email</string>
+    <string name="retype_password_hint_register">Retype Password</string>
+    <string name="registration_screen">Don\'t Have and account?</string>
+    <string name="open">Open Navigation\n</string>
+    <string name="close">Close Navigation\n</string>
+    <string name="about_me_desc">If you enjoy using Taku Pdf, please share nice review. It really helps!</string>
+    <string name="last_license_text">Taku PDF was made for the CAC 2 Android Programming. Please give good reviews and rating if you like it. It really helps!</string>
+</resources>

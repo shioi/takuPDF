@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_dark_onBackground"
+    android:padding="20dp"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:contentDescription="@string/takupdf_logo_login"
+        android:src="@drawable/taku_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_hint_login"
+            app:endIconMode="clear_text"
+            app:startIconDrawable="@drawable/icon_username_black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username_login"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/input_text_layout"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:hint="@string/password_hint"
+                app:endIconMode="password_toggle"
+                app:startIconDrawable="@drawable/icon_password_black">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_login"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/input_text_layout"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                app:cornerRadius="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="@string/login_hint_login"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/to_registration_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration_screen"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:padding="20dp"
+            app:drawableLeftCompat="@drawable/icon_registration" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
